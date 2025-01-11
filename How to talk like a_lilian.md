@@ -35,8 +35,8 @@ You can also skip this part and type words into the textbox directly.
 
 The second half of STTTS! This is where Curses takes the words it transcribes and sends them to a voice model to be said out loud.
 
-At the moment, the main branch of Curses integrates with several services: Windows/Native, Azure, TikTok, and Uberduck. ZQLK's branch adds Piper as an additional option. 
-
+At the moment, the main branch of Curses integrates with several services: Windows/Native, Azure, TikTok, and Uberduck. ZQLK's branch adds Piper as an additional option. You can choose which service you want to use from the **Service** drop-down.
+ 
 ### Windows/Native
 
 This is your Windows computer's native speech synthesis that is most commonly used in accessibility contexts. Microsoft Zira and David come installed by default on US installations. You can read about downloading and installing different localized voices and languages [here](https://support.microsoft.com/en-us/windows/appendix-a-supported-languages-and-voices-4486e345-7730-53da-fcfe-55cc64300f01#WindowsVersion=Windows_10).
