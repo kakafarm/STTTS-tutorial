@@ -59,7 +59,9 @@ I don't use TikTok and I don't know what Uberduck is. Are all these TikTok voice
 
 One thing to be thoughtful about is that any time you use a cloud service (including Azure), you are likely providing explicit or implicit consent to their Terms of Service and Privacy Policy. Are you comfortable with TikTok's Privacy Policy governing the TTS half of your STTTS configuration?
 
-### Piper
+## Piper
+
+Uhoh. There's so much going on in the Piper section that I broke the header hierarchy! 
 
 Piper is a free and open source command line tool for creating and running neural voice models. It will only show up as an option if you've downloaded ZQLK's branch of Curses.
 
@@ -67,7 +69,7 @@ Piper and its models run locally on your computer.
 
 To use Piper with Curses, you will need to download the Windows release of Piper and a Piper voice model. You will then enter the paths to these files in Curses so Curses can find and use them.
 
-#### The Windows Release of Piper
+### The Windows Release of Piper
 
 Piper releases can be found [here](https://github.com/rhasspy/piper/releases). At the time of writing this, the most recent Windows release and the one I use is the **2023.11.14-2** release. To use it, you will need to download the `piper_windows_amd64.zip`file and extract the folder to somewhere on your hard drive. 
 
@@ -75,7 +77,7 @@ Curses will need the path to the `piper.exe` executable file in this folder, for
 
 Oh dear, it's another executable downloaded from the internet! Do you trust the Piper team too? 
 
-#### The Piper Voice Model
+### The Piper Voice Model
 
 Each Piper voice model comes in two files: one that ends in `.onyx` and one that ends in `.json`. The `.json` file has some parameters that can be adjusted to change aspects of the voice like how fast it speaks.
 
