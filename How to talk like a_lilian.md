@@ -27,6 +27,8 @@ Open source software can theoretically be safer because anyone can review the co
 
 The first half of STTTS! This is where Curses takes your microphone input and transcribes the things you say into text. I've only ever used the Native service which captures the system default microphone. The other options may give you more flexibility with profanity, but I like how Cori mutters _asteriskasteriskasterisk_ under their breath when I swear. 
 
+You may want to test that words get transcribed when you speak into your microphone before moving on to the next step. Don't forget to press the **Start** button!
+
 You can also skip this part and type words into the textbox directly.
 
 ## Text-to-Speech (TTS)
