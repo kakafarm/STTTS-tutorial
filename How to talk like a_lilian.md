@@ -10,6 +10,8 @@ I currently use Windows 10 and I'll try my best not to have an autistic meltdown
 
 ## Curses
 
+![curses_logo](https://github.com/user-attachments/assets/ef214e69-d9d6-4a28-a272-69ebfcb35445)
+
 There are several STTTS platforms but the one I use is called Curses. Curses was created by [Mmp](https://www.patreon.com/c/mmpcode). The main branch of Curses can be found [here](https://github.com/mmpneo/curses). [zqlk's branch](https://github.com/zqlk256/curses) of Curses adds Piper as a TTS service. A pull request to merge zqlk's branch into the main branch is pending, but I haven't been able to reach Mmp in quite a while. 
 
 You can download either version from their respective **releases** links:
@@ -25,7 +27,11 @@ Open source software can theoretically be safer because anyone can review the co
 
 ## Speech-to-Text (STT)
 
-The first half of STTTS! This is where Curses takes your microphone input and transcribes the things you say into text. I've only ever used the Native service which captures the system default microphone. The other options may give you more flexibility with profanity, but I like how Cori mutters _asteriskasteriskasterisk_ under their breath when I swear. 
+The first half of STTTS! This is where Curses takes your microphone input and transcribes the things you say into text.
+
+![curses stt](https://github.com/user-attachments/assets/1c31c265-0e62-4aa2-bd6f-5ca9a0a0393b)
+
+I've only ever used the Native service which captures the system default microphone. The other options may give you more flexibility with profanity, but I like how Cori mutters _asteriskasteriskasterisk_ under their breath when I swear. 
 
 You may want to test that words get transcribed when you speak into your microphone before moving on to the next step. Don't forget to press the **Start** button!
 
@@ -34,6 +40,8 @@ You can also skip this part and type words into the textbox directly.
 ## Text-to-Speech (TTS)
 
 The second half of STTTS! This is where Curses takes the words it transcribes and sends them to a voice model to be said out loud.
+
+![curses tts](https://github.com/user-attachments/assets/0cd3529b-dc37-4b9a-80e4-bef298180107)
 
 At the moment, the main branch of Curses integrates with several services: Windows/Native, Azure, TikTok, and Uberduck. ZQLK's branch adds Piper as an additional option. You can choose which service you want to use from the **Service** drop-down.
  
@@ -60,6 +68,8 @@ I don't use TikTok and I don't know what Uberduck is. Are all these TikTok voice
 One thing to be thoughtful about is that any time you use a cloud service (including Azure), you are likely providing explicit or implicit consent to their Terms of Service and Privacy Policy. Are you comfortable with TikTok's Privacy Policy governing the TTS half of your STTTS configuration?
 
 ## Piper
+
+![piper_logo](https://github.com/user-attachments/assets/c5f211c0-c524-4842-9814-085322fbd151)
 
 Uhoh. There's so much going on in the Piper section that I broke the header hierarchy! 
 
@@ -99,4 +109,4 @@ A plain virtual audio cable should work fine to pipe Curses' sounds to Discord o
 
 I hope it works out well for you! There's a lot of computer-y setup steps so please be patient with yourself if things don't work on the first try. There's nothing wrong with asking for help if you need it.
 
-[airplane]
+![airplane trail 2](https://github.com/user-attachments/assets/e2d35fe0-48e1-4ff7-ba0b-cb8b2b0537e1)
