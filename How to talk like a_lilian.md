@@ -23,7 +23,8 @@ You can download either version from their respective **releases** links:
 
 When you try to download and run Curses for the first time, Windows will present you with security warnings. You will need to decide for yourself whether you feel safe allowing the Curses executable to run on your computer. 
 
-Open source software can theoretically be safer because anyone can review the code for malicious components, but I do not have the expertise to do that. Do you trust Mmp to write code you run on your computer? Do you trust zqlk?
+> [!CAUTION]
+> Open source software can be safer because the source code is available for review, but I do not have the expertise to review the code. Do you trust Mmp to write code you run on your computer? Do you trust zqlk?
 
 ## Speech-to-Text (STT)
 
@@ -67,13 +68,12 @@ I find the Azure neural voice models to be clear, clean, and more natural soundi
 
 I don't use TikTok and I don't know what Uberduck is. Are all these TikTok voices memes? I have no idea! 
 
-One thing to be thoughtful about is that any time you use a cloud service (including Azure), you are likely providing explicit or implicit consent to their Terms of Service and Privacy Policy. Are you comfortable with TikTok's Privacy Policy governing the TTS half of your STTTS configuration?
+> [!NOTE]
+> Any time you use a cloud service (including Azure), you are likely providing explicit or implicit consent to their Terms of Service and Privacy Policy. Are you comfortable with TikTok's Privacy Policy governing the TTS half of your STTTS configuration?
 
 ## Piper
 
 ![piper_logo](https://github.com/user-attachments/assets/c5f211c0-c524-4842-9814-085322fbd151)
-
-Uhoh. There's so much going on in the Piper section that I broke the header hierarchy! 
 
 Piper is a free and open source command line tool for creating and running neural voice models. It will only show up as an option if you've downloaded ZQLK's branch of Curses.
 
@@ -87,7 +87,8 @@ Piper releases can be found [here](https://github.com/rhasspy/piper/releases). A
 
 Curses will need the path to the `piper.exe` executable file in this folder, for example `C:\users\lilian\piper\piper.exe`.
 
-Oh dear, it's another executable downloaded from the internet! Do you trust the Piper team too? 
+> [!CAUTION]
+> Oh dear, it's another executable downloaded from the internet! Do you trust the Piper team too? 
 
 ### The Piper Voice Model
 
@@ -97,18 +98,19 @@ Curses will need a path to the file where these files are stored on your hard dr
 
 When scanning, Curses is looking for a pair of`.onyx` and `.json` files with the same name before the `.`. If you have your files saved as `en_GB-cori-medium.onyx` and `cori.json`, it won't work and you can end up going on a wild goose chase trying to troubleshoot something unrelated. Ask me how I know ಠ_ಠ
 
-One aspect of Piper models to be aware of is their licenses. Some of them are public domain like Cori. Others may have restrictions or require some kind of attribution, like the one trained on the [Jenny (Dioco) dataset](https://github.com/dioco-group/jenny-tts-dataset).  
+> [!NOTE]
+> One aspect of Piper models to be aware of is their licenses. Some of them are public domain like Cori. Others may have restrictions or require some kind of attribution, like the one trained on the [Jenny (Dioco) dataset](https://github.com/dioco-group/jenny-tts-dataset).  
 
 ## Outputting Your Voice to Another Program
 
-Ah, this is the part I find myself helping people with the most! Curses lets you set an output device so it's pretty easy to get the voice playing in your headphones, but how do you get it to play through Discord or VRChat? 
+A lot of people get stuck on this part! Curses lets you set an output device so it's pretty easy to get the voice playing in your headphones, but how do you get it to play through Discord or VRChat? 
 
-The piece you're missing is a virtual audio cable. You need something that Curses can use as an input and Discord (or another program) can use as an output. I've always used [VB-Audio](https://vb-audio.com/Voicemeeter/index.htm) software for these kinds of things but feel free to go with whatever works for you. And oh dear, we are once again downloading and installing programs off the internet ... be careful!
+The piece you're missing is a virtual audio cable. You need something that will register as an output option for Curses and an input option for Discord (or any other program). I've always used [VB-Audio](https://vb-audio.com/Voicemeeter/index.htm) software for these kinds of things but feel free to go with whatever works for you. And oh dear, we are once again downloading and installing programs off the internet ... be careful!
 
 A plain virtual audio cable should work fine to pipe Curses' sounds to Discord or a game, but I actually use [Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm) because it lets me play the audio to the game and to my headphones at the same time so I hear my voice at the same time everyone else does! It helps me catch mistakes and I also find it soothing to listen to. 
 
 ## Good luck! 
 
-I hope it works out well for you! There's a lot of computer-y setup steps so please be patient with yourself if things don't work on the first try. There's nothing wrong with asking for help if you need it.
+I hope it works out well for you! There's a lot of fussy computer-y steps so please be patient with yourself if things don't work on the first try. There's nothing wrong with asking for help if you need it.
 
 ![airplane trail 2](https://github.com/user-attachments/assets/e2d35fe0-48e1-4ff7-ba0b-cb8b2b0537e1)
