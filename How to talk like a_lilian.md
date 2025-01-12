@@ -58,7 +58,10 @@ Voices like these have a rich history of use in screen readers and creative proj
 
 ### Azure
 
-Azure is Microsoft's cloud service platform which provides a TTS service as one of its many offerings. To use Azure with Curses, you will need to make an Azure account, configure a payment service, configure a speech service, and then enter your API key into Curses. Do not share your API key. Doing so would allow someone to use your Azure service at your expense.
+Azure is Microsoft's cloud service platform which provides a TTS service as one of its many offerings. To use Azure with Curses, you will need to make an Azure account, configure a payment service, configure a speech service, and then enter your API key into Curses. 
+
+> ![CAUTION]
+> Do not share your API key. Doing so would allow someone to use your Azure service at your expense.
 
 Cloud service platforms like Azure and Amazon Web Services are catered to businesses so the backend can be dense and inaccessible to an inexperienced user. Being a cloud service, the computational demand of running the models is offloaded onto Azure's servers. Of course, that subjects you to latency and reliability issues, and Azure will charge you money for providing this service.
 
