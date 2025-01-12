@@ -27,7 +27,9 @@ Open source software can theoretically be safer because anyone can review the co
 
 ## Speech-to-Text (STT)
 
-The first half of STTTS! This is where Curses takes your microphone input and transcribes the things you say into text.
+You can navigate Curses by clicking around the menu bar on the left.
+
+STT is the first half of STTTS! This is where Curses takes your microphone input and transcribes the things you say into text.
 
 ![curses stt](https://github.com/user-attachments/assets/1c31c265-0e62-4aa2-bd6f-5ca9a0a0393b)
 
@@ -39,7 +41,7 @@ You can also skip this part and type words into the textbox directly.
 
 ## Text-to-Speech (TTS)
 
-The second half of STTTS! This is where Curses takes the words it transcribes and sends them to a voice model to be said out loud.
+TTS is the second half of STTTS! This is where Curses takes the words it transcribes and sends them to a voice model to be said out loud.
 
 ![curses tts](https://github.com/user-attachments/assets/0cd3529b-dc37-4b9a-80e4-bef298180107)
 
