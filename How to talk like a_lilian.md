@@ -32,9 +32,6 @@ You can navigate Curses by clicking around the menu bar on the left.
 
 STT is the first half of STTTS! This is where Curses takes your microphone input and transcribes the things you say into text.
 
-> [!NOTE]
-> You can also type words directly into the textbox. Speaking is not necessary. 
-
 ![curses stt](https://github.com/user-attachments/assets/1c31c265-0e62-4aa2-bd6f-5ca9a0a0393b)
 
 I use the native service which captures your system's default microphone. 
@@ -44,6 +41,9 @@ The browser service allows you to use a web browser's microphone capture (think 
 The other services are cloud services I haven't used. They may give you more flexibility with profanity, but I like how Cori mutters _asteriskasteriskasterisk_ under their breath when I swear. 
 
 You may want to test that words get transcribed when you speak into your microphone before moving on to the next step. Don't forget to press the **Start** button!
+
+> [!NOTE]
+> You can also type words directly into the textbox. Speaking is not necessary. 
 
 ## Text-to-Speech (TTS)
 
@@ -120,6 +120,8 @@ The piece you're missing is a virtual audio cable. You need something that will 
 > Oh dear, we are once again downloading and installing programs off the internet ... be careful!
 
 A plain virtual audio cable should work fine to pipe Curses' sounds to Discord or a game, but I actually use [Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm) because it lets me play the audio to the game and to my headphones at the same time so I hear my voice at the same time everyone else does! It helps me catch mistakes and I also find it soothing to listen to. 
+
+Some games like Helldivers 2 do not allow you to select a microphone and will only use the system default microphone. I haven't worked out how to use Curses with those games yet, but maybe you can!
 
 ## Good luck! 
 
