@@ -6,7 +6,7 @@ I am a streamer who talks using speech-to-text-to-speech (STTTS). This means I s
 
 I hope that this guide will help you to speak like I do. 
 
-I currently use Windows 10 and I'll try my best not to have an autistic meltdown when it's time to upgrade to 11 🫠
+I currently use Windows 10.
 
 ## Curses
 
