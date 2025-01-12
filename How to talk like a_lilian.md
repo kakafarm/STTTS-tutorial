@@ -24,7 +24,7 @@ You can download either version from their respective **releases** links:
 When you try to download and run Curses for the first time, Windows will present you with security warnings. You will need to decide for yourself whether you feel safe allowing the Curses executable to run on your computer. 
 
 > [!CAUTION]
-> Open source software can be safer because the source code is available for review, but I do not have the expertise to review the code. Do you trust Mmp to write code you run on your computer? Do you trust zqlk?
+> Open source software can be safer because the source code is available for review, but I do not have the expertise to review the Curses source code. Do you trust Mmp to write code you run on your computer? Do you trust zqlk?
 
 ## Speech-to-Text (STT)
 
@@ -32,13 +32,18 @@ You can navigate Curses by clicking around the menu bar on the left.
 
 STT is the first half of STTTS! This is where Curses takes your microphone input and transcribes the things you say into text.
 
+> [!NOTE]
+> You can also type words directly into the textbox. Speaking is not necessary. 
+
 ![curses stt](https://github.com/user-attachments/assets/1c31c265-0e62-4aa2-bd6f-5ca9a0a0393b)
 
-I've only ever used the Native service which captures the system default microphone. The other options may give you more flexibility with profanity, but I like how Cori mutters _asteriskasteriskasterisk_ under their breath when I swear. 
+I use the native service which captures your system's default microphone. 
+
+The browser service allows you to use a web browser's microphone capture (think the little pop-up that asks for mic permissions if you join a Zoom call). It may be useful if you're having trouble with the native service!
+
+The other services are cloud services I haven't used. They may give you more flexibility with profanity, but I like how Cori mutters _asteriskasteriskasterisk_ under their breath when I swear. 
 
 You may want to test that words get transcribed when you speak into your microphone before moving on to the next step. Don't forget to press the **Start** button!
-
-You can also skip this part and type words into the textbox directly.
 
 ## Text-to-Speech (TTS)
 
@@ -95,14 +100,15 @@ Curses will need the path to the `piper.exe` executable file in this folder, for
 
 ### The Piper Voice Model
 
-Each Piper voice model comes in two files: one that ends in `.onyx` and one that ends in `.json`. The `.json` file has some parameters that can be adjusted to change aspects of the voice like how fast it speaks.
+Each Piper voice model comes in two files: one that ends in `.onnx` and one that ends in `.onnx.json`. The `.json` file has some parameters that can be adjusted to change aspects of the voice like how fast it speaks.
 
 Curses will need a path to the file where these files are stored on your hard drive, for example `C:\users\lilian\piper\voices`. Then you will click **Scan Directory** to tell Curses to index the voice models in this file.
 
-When scanning, Curses is looking for a pair of`.onyx` and `.json` files with the same name before the `.`. If you have your files saved as `en_GB-cori-medium.onyx` and `cori.json`, it won't work and you can end up going on a wild goose chase trying to troubleshoot something unrelated. Ask me how I know ಠ_ಠ
+> [!WARNING]
+> When scanning, Curses is looking for a pair of`.onnx` and `.onnx.json` files with the same name before the `.onnx`. If you have your files saved as `en_GB-cori-medium.onnx` and `cori.onnx.json`, it won't work and you can end up going on a wild goose chase trying to troubleshoot something unrelated. Ask me how I know ಠ_ಠ
 
 > [!NOTE]
-> One aspect of Piper models to be aware of is their licenses. Some of them are public domain like Cori. Others may have restrictions or require some kind of attribution, like the one trained on the [Jenny (Dioco) dataset](https://github.com/dioco-group/jenny-tts-dataset).  
+> Piper voice models tend to have licenses attached. Some of them are public domain like Cori. Others may have restrictions or require some kind of attribution, like the one trained on the [Jenny (Dioco) dataset](https://github.com/dioco-group/jenny-tts-dataset).  
 
 ## Outputting Your Voice to Another Program
 
