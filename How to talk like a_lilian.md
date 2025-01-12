@@ -2,7 +2,7 @@
 
 Beep boop, hello there, I am a_lilian! 
 
-I am a streamer who talks using speech-to-text-to-speech (STTTS). This means I say words out loud into a microphone which are transcribed into text (STT) and then synthesized back into speech using a text-to-speech model (TTS). I do this because I find speaking [difficult], and because I find TTS a meaningful medium for [self expression]. 
+I am a streamer who talks using speech-to-text-to-speech (STTTS). This means I say words out loud into a microphone which are transcribed into text (STT) and then synthesized back into speech using a text-to-speech model (TTS). I do this because I find speaking [difficult](https://www.youtube.com/watch?v=qkNP2KveLVE), and because I find TTS a meaningful medium for [self expression]. 
 
 I hope that this guide will help you to speak like I do. 
 
@@ -75,7 +75,7 @@ I don't use TikTok and I don't know what Uberduck is. Are all these TikTok voice
 
 ![piper_logo](https://github.com/user-attachments/assets/c5f211c0-c524-4842-9814-085322fbd151)
 
-Piper is a free and open source command line tool for creating and running neural voice models. It will only show up as an option if you've downloaded ZQLK's branch of Curses.
+Piper is a free and open source command line tool for creating and running neural voice models. It will only show up as an option if you've downloaded zqlk's branch of Curses.
 
 Piper and its models run locally on your computer.
 
@@ -105,7 +105,10 @@ When scanning, Curses is looking for a pair of`.onyx` and `.json` files with the
 
 A lot of people get stuck on this part! Curses lets you set an output device so it's pretty easy to get the voice playing in your headphones, but how do you get it to play through Discord or VRChat? 
 
-The piece you're missing is a virtual audio cable. You need something that will register as an output option for Curses and an input option for Discord (or any other program). I've always used [VB-Audio](https://vb-audio.com/Voicemeeter/index.htm) software for these kinds of things but feel free to go with whatever works for you. And oh dear, we are once again downloading and installing programs off the internet ... be careful!
+The piece you're missing is a virtual audio cable. You need something that will register as an output option for Curses and an input option for Discord (or any other program). I've always used [VB-Audio](https://vb-audio.com/Voicemeeter/index.htm) software for these kinds of things but feel free to go with whatever works for you. 
+
+> [!CAUTION]
+> Oh dear, we are once again downloading and installing programs off the internet ... be careful!
 
 A plain virtual audio cable should work fine to pipe Curses' sounds to Discord or a game, but I actually use [Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm) because it lets me play the audio to the game and to my headphones at the same time so I hear my voice at the same time everyone else does! It helps me catch mistakes and I also find it soothing to listen to. 
 
