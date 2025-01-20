@@ -2,7 +2,8 @@
 
 Beep boop, hello there, I am a_lilian! 
 
-I am a streamer who talks using speech-to-text-to-speech (STTTS). This means I say words out loud into a microphone which are transcribed into text (STT) and then synthesized back into speech using a text-to-speech model (TTS). I do this because I find speaking [difficult](https://www.youtube.com/watch?v=qkNP2KveLVE), and because I find TTS a meaningful medium for [self expression]. 
+I am a streamer who talks using speech-to-text-to-speech (STTTS). This means I say words out loud into a microphone which are transcribed into text (STT) and then synthesized back into speech using a text-to-speech model (TTS). I do this because I find speaking [difficult](https://www.youtube.com/watch?v=qkNP2KveLVE), and because I find TTS a meaningful medium for [self expression](https://youtu.be/LKcT-aQuIFs
+). 
 
 I hope that this guide will help you to speak like I do. 
 
